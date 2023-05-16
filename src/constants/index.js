@@ -15,14 +15,11 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  route
 } from "../assets";
 
 export const navLinks = [
@@ -46,7 +43,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React  Developer",
     icon: mobile,
   },
   {
@@ -54,7 +51,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Node Js Developer ",
     icon: creator,
   },
 ];
@@ -116,11 +113,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Front End diploma .",
+    company_name: "Route Academy",
+    icon: route,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2022 - April 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,44 +126,19 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Back End diploma .",
+    company_name: "Route Academy",
+    icon: route,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "May 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using Node js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  }
+ 
 ];
 
 const testimonials = [
@@ -198,58 +170,63 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Yummy",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Meals website where you can search for your desired meals and follow the instructions to cook it even you can watch the recipe video on YouTube      ",
     tags: [
       {
-        name: "react",
+        name: "js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "jquery",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "bootstrap",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/proahmed22/Yala-Yummy",
+    live_link: "https://proahmed22.github.io/Yala-Yummy/",
+    
   },
   {
-    name: "Job IT",
+    name: "Quote App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This website provides you with a random quote each time you load the page. These quotes can be used as a source of inspiration, motivation, or even just to add a touch of wisdom to your day.",
     tags: [
       {
-        name: "react",
+        name: "js",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "jquery",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "bootstrap",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/proahmed22/QuoteApp",
+    live_link: "https://proahmed22.github.io/QuoteApp/",
+
+    
   },
   {
-    name: "Trip Guide",
+    name: "GAME-REVIEWS",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "GAME-REVIEWS is a website dedicated to reviewing electronic games and providing comprehensive evaluations and opinions about them. .",
     tags: [
       {
-        name: "nextjs",
+        name: "JS",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "API",
         color: "green-text-gradient",
       },
       {
@@ -258,7 +235,9 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/proahmed22/GAME-REVIEWS",
+    live_link: "https://proahmed22.github.io/GAME-REVIEWS/",
+
   },
 ];
 
